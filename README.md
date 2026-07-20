@@ -1,5 +1,7 @@
 # ShopVault - Premium E-Commerce Product Explorer
 
+## Vercel live Link: https://shopvault-beta.vercel.app/
+
 ## Project Overview
 
 ShopVault is a premium, production-ready, fully responsive E-Commerce Product Explorer web application. It fetches real product data from the Fake Store API and provides a seamless user experience with search, category filtering, and a modern UI.
