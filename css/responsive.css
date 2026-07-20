@@ -1,0 +1,30 @@
+@media (min-width: 992px) {
+    .hero-title { font-size: 4rem; }
+}
+
+@media (max-width: 991px) {
+    .hero-section { padding: 120px 0 60px; text-align: center; }
+    .hero-title { font-size: 3rem; }
+    .hero-subtitle { max-width: 100%; margin: 0 auto 30px; }
+    .hero-buttons { justify-content: center; }
+    .hero-visual { margin-top: 40px; }
+    .product-grid { grid-template-columns: repeat(2, 1fr); }
+    .footer-social { justify-content: flex-start; margin-top: 16px; }
+}
+
+@media (max-width: 767px) {
+    .hero-title { font-size: 2.5rem; }
+    .search-section .row { gap: 16px; }
+    .product-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .product-body { padding: 16px; }
+}
+
+@media (max-width: 575px) {
+    .hero-title { font-size: 2.2rem; }
+    .hero-buttons { flex-direction: column; gap: 16px; }
+    .hero-cta, .hero-outline { width: 100%; text-align: center; }
+    .product-grid { grid-template-columns: 1fr; gap: 20px; }
+    .footer { text-align: center; }
+    .footer-social { justify-content: center; }
+    .details-title { font-size: 1.25rem; }
+}

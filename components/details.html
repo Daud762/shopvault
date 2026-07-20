@@ -1,0 +1,42 @@
+<!-- ===== PRODUCT DETAILS MODAL ===== -->
+<div class="modal fade" id="productDetailsModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content glass-modal">
+            <div class="modal-header border-0">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <div class="row g-5">
+                    <div class="col-md-6">
+                        <div class="details-image-wrapper">
+                            <img id="detailsImage" src="" alt="Product Image" class="details-image">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="details-category" id="detailsCategory">Category</span>
+                        <h2 class="details-title" id="detailsTitle">Product Title</h2>
+                        <div class="details-price mb-3" id="detailsPrice">$0.00</div>
+                        <div class="details-rating mb-4" id="detailsRating">
+                            <i class="fas fa-star star-filled"></i>
+                            <i class="fas fa-star star-filled"></i>
+                            <i class="fas fa-star star-filled"></i>
+                            <i class="fas fa-star star-filled"></i>
+                            <i class="fas fa-star star-empty"></i>
+                            <span class="ms-2 text-muted">(0 reviews)</span>
+                        </div>
+                        <p class="details-desc text-muted" id="detailsDesc">Description goes here.</p>
+                        
+                        <div class="d-flex gap-3 mt-4">
+                            <button class="btn btn-primary-glow flex-grow-1">
+                                <i class="fas fa-shopping-cart me-2"></i>Add to Cart
+                            </button>
+                            <button class="btn btn-outline-glow">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
